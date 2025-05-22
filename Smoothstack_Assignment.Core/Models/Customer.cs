@@ -17,12 +17,12 @@ namespace Smoothstack_Assignment.Core.Models
         /// <summary>
         /// Gets or sets the customer's full name.
         /// </summary>
-        public required string Name { get; set; }
+        public  string? Name { get; set; }
 
         /// <summary>
         /// Gets or sets the customer's email address.
         /// </summary>
-        public required string Email { get; set; }
+        public  string? Email { get; set; }
 
         /// <summary>
         /// Gets or sets the customer's segment (e.g., New, Regular, VIP).

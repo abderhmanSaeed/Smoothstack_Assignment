@@ -20,12 +20,12 @@ namespace Smoothstack_Assignment.Core.Models
         /// <summary>
         /// Gets or sets the parent order of this item.
         /// </summary>
-        public required Order Order { get; set; }
+        public Order? Order { get; set; }
 
         /// <summary>
         /// Gets or sets the name of the product.
         /// </summary>
-        public required string ProductName { get; set; }
+        public string? ProductName { get; set; }
 
         /// <summary>
         /// Gets or sets the quantity of the product ordered.
