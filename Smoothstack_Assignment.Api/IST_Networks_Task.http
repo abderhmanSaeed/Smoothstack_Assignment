@@ -1,0 +1,6 @@
+@IST_Networks_Task_HostAddress = http://localhost:5208
+
+GET {{IST_Networks_Task_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
